@@ -3,13 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        User user1 = new User();
-        user1.set_name("Sally");
-        user1.membership = "Gold";
+        User user1 = new User("Caleb", "Gold");
+        User user2 = new User();
+
 
 
 
         System.out.println(user1.get_name());
-        System.out.println(user1.membership);
+        System.out.println(user1.get_membership());
+
     }
 }
